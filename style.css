@@ -13,6 +13,7 @@ body {
     background-color: white;
     padding: 0;
     margin: 0;
+    background-color: #660022;
 
     
 }
@@ -84,14 +85,10 @@ footer {
 nav {
     background-color: #FFDDEE;
     padding: 5px;
-    border-radius: 5px; 
-    box-shadow: 5px 5px 8px #888888;
+    /* border-radius: 5px;  */
+    box-shadow: 5px 5px 8px #330011;
     position: sticky;
     top: 0;
-}
-
-header {
-    display: inline;
 }
 
 nav a {
@@ -115,8 +112,11 @@ nav a:hover {
 }
 
 nav > h2 {
-    margin-left: 0.5em;
-    
+    margin-left: 0.5em; 
+}
+
+header {
+    display: inline;
 }
 
 .header {
@@ -128,7 +128,7 @@ nav > h2 {
 }
 
 .card {
-    box-shadow: 5px 5px 8px #888888;
+    box-shadow: 5px 5px 8px #330011;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
@@ -136,6 +136,9 @@ nav > h2 {
     margin-left: 15px;
     margin-bottom: 20px;
     background-color: #FFDDEE;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ig {
@@ -169,7 +172,6 @@ th {
     
     nav {
         background-color: #FFDDEE;
-        border: 1px solid black;
         padding: none;
         border-radius: none; 
         box-shadow: none;
