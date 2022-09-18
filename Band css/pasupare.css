@@ -69,6 +69,39 @@ p {
     text-indent: 2em;
 }
 
+nav {
+    background-color: #DDFFEE;
+    padding: 5px;
+    /* border-radius: 5px;  */
+    box-shadow: 5px 5px 8px #00331a;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito Sans';
+    font-style: oblique;
+    
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav > h2 {
+    margin-left: 0.5em; 
+}
+
 .karakter {
     width: 250px;
     height: 250px;
