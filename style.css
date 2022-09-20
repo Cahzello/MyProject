@@ -25,8 +25,8 @@ main {
 
 img {
     width: 450px;
-    height: none;
-    padding-right: 10px;
+    /* height: 253px; */
+    /* padding-right: 10px; */
     margin: 5px;
     border-radius: 5px;
 }
@@ -63,14 +63,14 @@ h2 {
 }
 
 p {
-    font-size: 21px;
+    font-size: 18px;
     font-style: normal;
     text-indent: 2em;
     
 }
 
 article, section {
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 footer {
@@ -117,6 +117,10 @@ nav > h2 {
 
 header {
     display: inline;
+}
+
+.karakter {
+    box-shadow: 5px 8px 8px #888888;
 }
 
 .header {
